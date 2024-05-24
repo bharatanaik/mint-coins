@@ -1,7 +1,7 @@
 # MINT COINS - CRYPTO CURRENCY
 
 ## Requirements
-- django == 5.0.6
+- Flask == 3.0.3
 
 
 ## Installation
