@@ -1,0 +1,91 @@
+/* Body and Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+}
+
+/* Header Styling */
+header {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Light text color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #007bff; /* Primary blue background color */
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #ffffff; /* White background color */
+}
+
+.services-section h2 {
+    color: #343a40; /* Dark text color */
+}
+
+.services-section .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.services-section .card:hover {
+    transform: translateY(-10px); /* Move card up on hover */
+}
+
+.services-section .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.services-section .card-text {
+    color: #6c757d; /* Gray text color */
+}
+
+.services-section .btn-outline-primary {
+    color: #007bff; /* Primary blue text color */
+    border-color: #007bff; /* Primary blue border color */
+}
+
+.services-section .btn-outline-primary:hover {
+    background-color: #007bff; /* Primary blue background color on hover */
+    color: white; /* White text color on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Light text color */
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center; /* Center align navigation items on smaller screens */
+    }
+}
