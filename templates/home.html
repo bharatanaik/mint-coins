@@ -1,9 +1,86 @@
-{% extends 'base.html' %}
-
-{% block title %}
-MINT COINS
-{% endblock title %}
-
-{% block content %}
-
-{% endblock content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Mint Coins</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Mint Coins</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="block.html">Block</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mining.html">Mining</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section text-white text-center py-5" style="background-color: #343a40;">
+            <div class="container">
+                <h1 class="display-4">Welcome to Mint Coins</h1>
+                <p class="lead">Innovative solutions for a decentralized future.</p>
+                <a href="about.html" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </section>
+        <section class="services-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Services</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Blockchain Development</h3>
+                                <p class="card-text">We provide top-notch blockchain development services for various industries.</p>
+                                <a href="services.html" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Smart Contracts</h3>
+                                <p class="card-text">We create secure and efficient smart contracts to automate processes.</p>
+                                <a href="services.html" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Consulting</h3>
+                                <p class="card-text">We offer expert consulting services to help you understand and implement blockchain technology.</p>
+                                <a href="services.html" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mint Coins. Created by 4 Students.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
