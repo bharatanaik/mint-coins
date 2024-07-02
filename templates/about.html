@@ -1,10 +1,72 @@
-{% extends 'base.html' %}
-
-{% block title %}
-About | MINT COINS
-{% endblock title %}
-
-{% block content %}
-
-
-{% endblock content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Blockchain Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Mint Coins</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="block.html">Block</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mining.html">Mining</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">About Us</h1>
+                <p class="text-center mb-5">Welcome to our blockchain website. We are a team of students dedicated to providing innovative blockchain solutions for businesses and individuals. Our goal is to leverage our knowledge and passion for blockchain technology to create impactful projects.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Our Mission</h2>
+                        <p>Our mission is to make blockchain technology accessible and useful for everyone. We believe in the power of blockchain to transform industries and improve lives. We are committed to delivering top-notch services and products to help you leverage the power of blockchain.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Our Team</h2>
+                        <p>Our team consists of students from various fields including software development, cryptography, finance, and more. We work together to create secure, efficient, and user-friendly blockchain solutions.</p>
+                    </div>
+                </div>
+                <h2 class="text-center my-4">Why Choose Us?</h2>
+                <ul class="list-unstyled text-center">
+                    <li>Passionate and dedicated team</li>
+                    <li>Innovative and secure solutions</li>
+                    <li>Customer-focused approach</li>
+                    <li>Commitment to learning and excellence</li>
+                </ul>
+                <div class="text-center mt-5">
+                    <a href="services.html" class="btn btn-outline-primary btn-lg mx-2">Our Services</a>
+                    <a href="contact.html" class="btn btn-primary btn-lg mx-2">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Blockchain Website. Created by Students.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
